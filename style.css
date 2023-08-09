@@ -1,0 +1,150 @@
+/* Exemplo de regra de estilo para o corpo da página */
+body {
+    width: 2480px;
+    height: 3508px;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    position: relative; /* Adicionamos position: relative ao body para permitir posicionamento absoluto do rodapé */
+}
+
+#frame-15 {
+    border: solid 2px red; /* remover depois */
+    display: flex;
+    width: 2483px;
+    padding-left: 0;
+    align-items: flex-start;
+    gap: 69px;
+}
+
+/* Estilo do título "PROPOSTA EMPRESARIAL" */
+#titulo h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 205px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 246px */
+}
+#titulo h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 205px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+/* address-frame ------------------------------------------------------------*/
+
+/* Estilo da div address-frame */
+
+#address-frame{
+    display: flex;
+padding-left: 0px;
+flex-direction: column;
+align-items: flex-start;
+margin-top: 500px; /* movendo para baixo */
+margin-left: 45px; /* movendo para baixo  a esquerda */
+}
+
+/* Estilo do endereço */
+#endereco {
+    border: solid 2px red; /* remover depois */
+        width: 945px;
+        height: 150px;
+        color: #000;
+        font-family: Inter;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 115%; /* 43.7px */
+    
+}
+
+/* Estilo da URL */
+#url {
+    border: solid 2px red; /* remover depois */
+        width: 282.369px;
+        height: 100px;
+        color: #000;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 115%; /* 43.7px */
+}
+
+/* -------------------------     -------------------------------------------*/
+/* Estilo da div frame-14 */
+#frame-14{
+    display: flex;
+    width: 2480px;
+    padding-left: 0px;
+    align-items: flex-end;
+    gap: 234px;
+
+}
+
+#capa {
+    width: 1901px;
+    height: 1192px;
+    position: absolute;
+    right: 0;
+    border-radius: 200px 0 0 0;
+    background: url("/images/pagina\ inicial/#capa"), rgba(211, 211, 211, 0) 50%/cover no-repeat;
+}
+
+
+
+#shape-capa {
+    border: solid 2px red; /* remover depois */
+    display: flex;
+    width: 2480px;
+    padding-left: 0;
+    align-items: flex-end;
+    gap: 234px;
+}
+
+#shape-esquerda{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* -------------------------     -------------------------------------------*/
+
+/* Posicionamento dos elementos no rodapé */
+footer {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajuste de margens para separar o endereço e a URL do shape do rodapé */
+#endereco, #url {
+    margin-bottom: 20px;
+}
+
+/* Estilo do shape do rodapé */
+.shape-rodape {
+    border: solid 2px red; /* remover depois */
+    width: 5132px;
+    height: 250px;  /* Defina a altura desejada */
+    /*position: fixed;*/
+    flex-shrink: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+/*#shape-rodape {
+    width: 5132.728px;
+     height: 2225.274px;
+   
+   
+}*/
